@@ -1,11 +1,11 @@
 {
-  "name": "highfyadventuregame",
-  "version": "1.0.0",
+  "name": "highfyadventure-game",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "highfyadventuregame": "./index.js"
+    "highfyadventure-game": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
