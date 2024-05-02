@@ -52,6 +52,8 @@ let oponent = await inquirer.prompt(
 
 let newPlayer = new Player(player.Name)
 let newOponent = new Oponent(oponent.select)
+
+console.log(`${player.Name} VS ${oponent.select}`)
 do{
     if(oponent.select === "Skeleton"){
         let feature =await inquirer.prompt(
